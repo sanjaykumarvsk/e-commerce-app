@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 24px;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 10px;
+    min-width: 490px;
+    height: 40px;
+  }
+  
+  .searchBar input {
+    border: none;
+    outline: none;
+    margin-left: 5px;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .horizontalNav{
+    background-color: black;
+    font-size: 14px;
+    color: white;
+    cursor: "pointer";
+    font-weight: bold;
+    transition: color 0.3s ease;
+    min-height: 48px;
+  }
+  
+  /* .horizontalNav{
+    color: gray;
+  } */
+  .HeaderMiddleSection {
+    display: flex;
+    min-width: 830px;
+    align-items: center;
+    justify-content: space-between;
+  }
