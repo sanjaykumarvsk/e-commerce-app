@@ -42,13 +42,11 @@ function Header() {
 
         <div className={styles.icons}>
         <Link 
-              // href={`/${item.toLowerCase()}`} 
               href={`/category/Signup`} 
             >
           <FaUser className={styles.icon} />
           </Link>
           <Link
-              // href={`/${item.toLowerCase()}`} 
               href={`/category/Marketplace`} 
             >
           <FaShoppingBag className={styles.icon} />
@@ -59,10 +57,9 @@ function Header() {
       </header>
       <div >
 
-        <Toolbar sx={{ justifyContent: "center", gap: 4 }} className={styles.horizontalNav}>
+        <Toolbar sx={{ justifyContent: "center", gap: 2 }} className={styles.horizontalNav}>
           {navItems.map((item, index) => (
             <Link key={index} 
-              // href={`/${item.toLowerCase()}`} 
               href={`/category/${item.toLowerCase().replace(/ /g, "-")}`} 
             >
               <Typography>
